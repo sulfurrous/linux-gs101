@@ -28,6 +28,7 @@
 };
 
 &spitouch {
+	compatible = "st,spi";
 	st,dchip_id = /bits/ 8 <0x36 0x48>;
 	st,max-coords = <1079 2399>;
 	st,udfps-coords = <540 1717>;
